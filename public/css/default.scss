@@ -1,0 +1,104 @@
+/*auto*/
+
+$color: #67B13D;
+$colorMenu: #30b13c;
+$colorHover: #cacb54;
+body {
+  padding: 0;
+  margin: 0;
+  font: normal 14px Arial;
+  color: #656D78;
+  background-color: #67B13D;
+  line-height: 20px;
+}
+
+.container-background {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  padding: 50px 0;
+}
+
+.forum-nav {
+  text-align: center;
+  /*margin: 0 auto;*/
+  /*width: 1000px;*/
+  /*padding: 0px 0;*/
+}
+
+.forum-nav:hover {
+  background: #cacb54;
+}
+
+.menu {
+  text-align: center;
+  //margin: 0 auto;
+  //width: 1000px;
+  //padding: 0px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+//.menu ul {
+//  display: inline-block;
+//}
+//
+//.menu li {
+//  float: left;
+//  list-style-type: none;
+//}
+
+//.menu li + li {
+//  margin-left: 20px;
+//}
+
+.yevli {
+  float: left;
+  list-style-type: none;
+}
+
+.yeva {
+  display: block;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  background: $colorMenu;
+  text-decoration: none;
+}
+
+.yeva:hover {
+  background: $colorHover;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #E0E0E0;
+}
+
+.linkbutton {
+  display: inline-block;
+  position: relative;
+  padding: 15px 80px;
+  color: $color;
+  border: 1px solid $color;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.linkbutton:hover {
+  color: white;
+  background-color: $color;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
